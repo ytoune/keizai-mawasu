@@ -11,7 +11,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "rimraf .next out && next build && next export",
+    "build": "rimraf .next out && next build && next export && touch out/.nojekyll && touch out/_next/.nojekyll",
     "push-page": "gh-pages --dist out --dotfiles",
     "dev": "next",
     "release": "yarn build && yarn push-page",
