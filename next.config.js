@@ -1,6 +1,6 @@
 // const path = require('path')
 const withPreact = require('next-plugin-preact')
-const basePath = ''
+const basePath = '/keizai-mawasu'
 module.exports = withPreact({
 	assetPrefix: basePath,
 	publicRuntimeConfig: {
