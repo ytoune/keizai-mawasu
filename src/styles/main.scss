@@ -1,0 +1,29 @@
+.keizai {
+	margin: 50px auto;
+	width: 100px;
+	text-align: center;
+	font-size: 300%;
+	animation:3s linear infinite kaiten;
+}
+
+.description {
+	text-align: center;
+	padding-top: 1em;
+}
+
+.mawatteru {
+	// pass
+}
+
+@keyframes kaiten {
+	0% {
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+	100% {
+		transform: rotate3d(0, 0, 1, 360deg);
+	}
+}
+
+.teitai {
+	animation-play-state: paused;
+}

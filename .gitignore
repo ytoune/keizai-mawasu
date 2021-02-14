@@ -1,0 +1,9 @@
+/dist
+/node_modules
+/.cache
+/.next
+/.parcel-cache
+/scripts/sandbox**
+/yarn-error.log*
+/public
+/out
