@@ -1,0 +1,1 @@
+.keizai{margin:50px auto;width:100px;text-align:center;font-size:300%;animation:kaiten 3s linear infinite}.description{text-align:center;padding-top:1em}@keyframes kaiten{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.teitai{animation-play-state:paused}
